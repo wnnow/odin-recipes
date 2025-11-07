@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-family: "Courier New", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(224, 224, 224);
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.recipe-title {
+  text-align: center;
+}
+
+.recipe-image {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+}

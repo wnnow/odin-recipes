@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  font-family: "Courier New", Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+h1 {
+  text-align: center;
+}
+
+.chef-image {
+  display: block;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.img-container {
+  text-align: center;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+li:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+li {
+  padding: 8px 16px;
+  border-radius: 5px;
+}
